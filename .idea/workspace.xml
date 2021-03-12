@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shared:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3a3bc73-6a0d-4df1-a32c-5919fad17670" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FamilyMapServerStudent" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xe0RW2oI42dqd2KuBEe9DIiYvj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/DataAccess" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainServer">
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.MainServer" />
+      <module name="FamilyMapServerStudent" />
+      <option name="PROGRAM_PARAMETERS" value="8080" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyMapServerStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.ServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest.testValidPerson" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="FamilyMapServerStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.ServerTest" />
+      <option name="METHOD_NAME" value="testValidPerson(org.junit.jupiter.api.TestInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyMapServerStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.ServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicesTest.getPersonsFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyMapServerStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.ServicesTest" />
+      <option name="METHOD_NAME" value="getPersonsFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passoff in FamilyMapServerStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyMapServerStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainServer" />
+      <item itemvalue="JUnit.ServerTest.testValidPerson" />
+      <item itemvalue="JUnit.ServicesTest" />
+      <item itemvalue="JUnit.ServerTest" />
+      <item itemvalue="JUnit.ServicesTest.getPersonsFail" />
+      <item itemvalue="JUnit.passoff in FamilyMapServerStudent" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainServer" />
+        <item itemvalue="JUnit.passoff in FamilyMapServerStudent" />
+        <item itemvalue="JUnit.ServerTest" />
+        <item itemvalue="JUnit.ServicesTest" />
+        <item itemvalue="JUnit.ServicesTest.getPersonsFail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3a3bc73-6a0d-4df1-a32c-5919fad17670" name="Default Changelist" comment="" />
+      <created>1581391244288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581391244288</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1584907502105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584907502105" />
+    <state x="458" y="209" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583301824247">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="458" y="209" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.826@0.23.1440.826" timestamp="1583301824247" />
+    <state x="184" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584987807567">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="184" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1584987807567" />
+    <state x="184" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1583558691906" />
+    <state x="100" y="123" width="1240" height="626" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583364366434">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="100" y="123" width="1240" height="626" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1583364366434" />
+    <state x="454" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582670957974">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="454" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.828@0.23.1440.828" timestamp="1582670957974" />
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1583457885212">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1583457885212" />
+    <state x="533" y="156" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1581392556212" />
+    <state x="533" y="156" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1581791740593" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583354558991" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827@0.23.1440.827" timestamp="1583380750925" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1583452841513" />
+    <state x="524" y="362" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584907424621">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="524" y="362" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.823@0.23.1440.823" timestamp="1584907424621" />
+    <state x="494" y="313" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583346998331">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1583276637798" />
+    <state x="494" y="313" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.826@0.23.1440.826" timestamp="1583346998331" />
+    <state x="346" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583290176077">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583276614038" />
+    <state x="346" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.827@0.23.1440.827" timestamp="1583290176077" />
+    <state x="458" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583366565304">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="458" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.826@0.23.1440.826" timestamp="1583366565304" />
+    <state x="37" y="23" width="474" height="467" key="#xdebugger.evaluate" timestamp="1583536966475">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="37" y="0" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583526171392" />
+    <state x="37" y="23" width="474" height="467" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1583367752713" />
+    <state x="37" y="23" key="#xdebugger.evaluate/0.23.1440.827@0.23.1440.827" timestamp="1583536966475" />
+    <state x="469" y="171" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582774096182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="469" y="171" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1582774096182" />
+    <state x="469" y="179" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.821@0.23.1440.821" timestamp="1581795706463" />
+    <state x="469" y="179" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.822@0.23.1440.822" timestamp="1581795525576" />
+    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1583279897339">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="434" height="466" key="DebuggerActiveHint/0.23.1440.827@0.23.1440.827" timestamp="1583279897339" />
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom" timestamp="1586914062792">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585084517849" />
+    <state width="1440" height="2" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581797871596" />
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585006050523" />
+    <state width="1398" height="121" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1585778479302" />
+    <state width="1398" height="107" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586195397938" />
+    <state width="1398" height="107" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585973853898" />
+    <state width="1398" height="107" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585968647684" />
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1586914062792" />
+    <state width="1398" height="107" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1586720517226" />
+    <state width="1398" height="293" key="GridCell.Tab.0.center" timestamp="1586914062791">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585084517847" />
+    <state width="1440" height="2" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581797871595" />
+    <state width="1398" height="310" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585006050520" />
+    <state width="1398" height="121" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1585778479301" />
+    <state width="1398" height="107" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586195397937" />
+    <state width="1398" height="107" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585973853897" />
+    <state width="1398" height="107" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585968647681" />
+    <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1586914062791" />
+    <state width="1398" height="107" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1586720517225" />
+    <state width="1398" height="293" key="GridCell.Tab.0.left" timestamp="1586914062789">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585084517846" />
+    <state width="1440" height="2" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581797871593" />
+    <state width="1398" height="310" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585006050515" />
+    <state width="1398" height="121" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1585778479300" />
+    <state width="1398" height="107" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586195397936" />
+    <state width="1398" height="107" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585973853896" />
+    <state width="1398" height="107" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585968647679" />
+    <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1586914062789" />
+    <state width="1398" height="107" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1586720517223" />
+    <state width="1398" height="293" key="GridCell.Tab.0.right" timestamp="1586914062792">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585084517848" />
+    <state width="1440" height="2" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581797871596" />
+    <state width="1398" height="310" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585006050521" />
+    <state width="1398" height="121" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1585778479302" />
+    <state width="1398" height="107" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586195397938" />
+    <state width="1398" height="107" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585973853897" />
+    <state width="1398" height="107" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585968647681" />
+    <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1586914062792" />
+    <state width="1398" height="107" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1586720517225" />
+    <state width="1398" height="310" key="GridCell.Tab.1.bottom" timestamp="1585084517854">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585084517854" />
+    <state width="1398" height="310" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585006674316" />
+    <state width="1398" height="471" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583374185710" />
+    <state width="1398" height="272" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1583558529076" />
+    <state width="1398" height="236" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583386968493" />
+    <state width="1398" height="2" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583456612969" />
+    <state width="1398" height="306" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583453816449" />
+    <state width="1398" height="310" key="GridCell.Tab.1.center" timestamp="1585084517852">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585084517852" />
+    <state width="1398" height="310" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1585006674312" />
+    <state width="1398" height="471" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1583374185709" />
+    <state width="1398" height="272" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1583558529075" />
+    <state width="1398" height="236" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1583386968493" />
+    <state width="1398" height="2" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1583456612967" />
+    <state width="1398" height="306" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1583453816448" />
+    <state width="1398" height="310" key="GridCell.Tab.1.left" timestamp="1585084517850">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585084517850" />
+    <state width="1398" height="310" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1585006674310" />
+    <state width="1398" height="471" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1583374185709" />
+    <state width="1398" height="272" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1583558529074" />
+    <state width="1398" height="236" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1583386968492" />
+    <state width="1398" height="2" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1583456612966" />
+    <state width="1398" height="306" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1583453816448" />
+    <state width="1398" height="310" key="GridCell.Tab.1.right" timestamp="1585084517853">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="310" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585084517853" />
+    <state width="1398" height="310" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1585006674314" />
+    <state width="1398" height="471" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1583374185709" />
+    <state width="1398" height="272" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1583558529075" />
+    <state width="1398" height="236" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1583386968493" />
+    <state width="1398" height="2" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1583456612968" />
+    <state width="1398" height="306" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1583453816449" />
+    <state x="229" y="44" width="1024" height="822" key="SettingsEditor" timestamp="1585337341325">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="201" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585256193374" />
+    <state x="201" y="44" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1585256535772" />
+    <state x="229" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1584987831086" />
+    <state x="229" y="44" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1585337341325" />
+    <state x="229" y="23" width="1024" height="827" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1583534202138" />
+    <state width="720" height="413" key="XDebugger.FullValuePopup" timestamp="1583534361684">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1583455667200" />
+    <state width="720" height="413" key="XDebugger.FullValuePopup/0.23.1440.827@0.23.1440.827" timestamp="1583534361684" />
+    <state x="225" y="193" width="990" height="689" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583526034954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="225" y="193" width="990" height="689" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1583526034954" />
+    <state x="114" y="52" key="new project wizard" timestamp="1586221957807">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="114" y="52" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1585256587425" />
+    <state x="114" y="52" key="new project wizard/0.23.1440.823@0.23.1440.823" timestamp="1584907404644" />
+    <state x="114" y="52" key="new project wizard/0.23.1440.826@0.23.1440.826" timestamp="1585682859502" />
+    <state x="114" y="52" key="new project wizard/0.23.1440.833@0.23.1440.833" timestamp="1586221957807" />
+    <state x="482" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1583366349618">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="482" y="50" key="refactoring.ChangeSignatureDialog/0.23.1440.826@0.23.1440.826" timestamp="1583366349618" />
+    <state x="482" y="50" key="refactoring.ChangeSignatureDialog/0.23.1440.827@0.23.1440.827" timestamp="1583287655269" />
+    <state x="385" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1585337378953">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="385" y="163" width="670" height="737" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583525716485" />
+    <state x="385" y="172" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1585337378953" />
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1583301318877" />
+    <state x="385" y="173" width="670" height="677" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1583381260223" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/LoadHandler.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/GetEventHandler.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/Fill.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/Fill.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/GetEventHandler.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/Load.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/LoginHandler.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/PersonIDHandler.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/PersonsAllHandler.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/Load.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/passoff/ServicesTest.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/passoff/ServicesTest.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/GetEvents.java</url>
+          <line>17</line>
+          <properties class="Service.GetEvents" method="getEvents">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DataAccess/EventDAO.java</url>
+          <line>114</line>
+          <properties class="DataAccess.EventDAO" method="getEventsByUsername">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/FamilyMap/JsonUtils.java</url>
+          <line>91</line>
+          <properties class="FamilyMap.JsonUtils" method="getRandomLocation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/Fill.java</url>
+          <line>105</line>
+          <properties class="Service.Fill" method="marry">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FamilyMapServerStudent$passoff_in_FamilyMapServerStudent.ic" NAME="passoff in FamilyMapServerStudent Coverage Results" MODIFIED="1583202330926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>passoff.*</FILTER>
+    </SUITE>
+  </component>
+</project>
